@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Busca-Numero</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script>
+
+            /*
+            1 - Receber um numero como parâmetro
+            2 - Executar um for na lista e para cada elemento verificar se é igual ao numero buscar
+            3 - Quando Encontrar, interromper a execução e retornar true
+            4 - Se chegar até o fim sem encontrar, retornar false 
+            */
+
+            let lista = [19, 64, 18, 11, 47, 98, 36, 44, 87]
+
+            function verificaNumero(numero) {
+                let existe = false
+                for (let i = 0; i < lista.length; i++){
+                    if (lista[i] === numero){
+                        existe = true
+                        break
+                    }
+                }
+                return existe;
+            }
+        </script>
+    </head>
+    <body>
+    
+    </body>
+</html>

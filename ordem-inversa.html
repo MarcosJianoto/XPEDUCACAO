@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script>
+            //criar uma função que recebe uma palavra como parâmetro e retorna esta 
+            //palavra invertida
+
+            //1 - Receber a palavra como parâmetro
+            //2 - Criar uma varia´vel temporária para armazenar o resultado
+            //3 - Iterar a palavra de trás para frente, armazenando letra por letra na variável temporária 
+            //4 - Retornar a variável temporárias
+
+            //0123456
+            //abacate
+            //length = 7
+            //6543210
+
+            function ordemInversa(palavra) {
+                let palavraInvertida = ''
+                
+                for (let i = palavra.length - 1; i >= 0; i--){
+                    palavraInvertida = palavraInvertida + palavra[i]
+                } 
+                return palavraInvertida
+            }
+        </script>
+    </head>
+    <body>
+    
+    </body>
+</html>
